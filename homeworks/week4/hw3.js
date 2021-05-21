@@ -12,6 +12,7 @@ request(
     const data = JSON.parse(body)
     if (data.message === 'Not Found') {
       console.log('找不到國家資訊')
+      return
     }
     for (let i = 0; i < data.length; i++) {
       console.log('============')
