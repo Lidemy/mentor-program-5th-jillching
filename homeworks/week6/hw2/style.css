@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:lightgrey;
+  max-width: 1920px;
+  max-height: 1340px;
+  font-family: MicrosoftJhengHei;
+}
+
+.section{
+  max-width: 645px;
+  margin: 0 auto;
+  margin-top: 121px;
+}
+
+.bar{
+  max-width: 645px;
+  height: 8px;
+  background-color: #fad312;
+}
+
+.form_text{
+  max-width: 645px;
+  background-color: white;
+  padding: 54px 42px;
+  box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.title{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.info{
+  padding-top: 35px;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+.tip{
+  padding-top: 22px;
+  font-size: 16px;
+  color: #e74149;
+}
+
+.content{
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.content sup {
+  color: #e74149;
+}
+
+.content input {
+  width: 287px;
+  height: 23px;
+  margin-top: 20px;
+  border: solid 1px #d0d0d0;
+}
+
+.content_label{
+  display: block;
+  font-size: 14px;
+  margin-top: 12px;
+  line-height: 2em;
+}
+
+
+.content_other{
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.button{
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #fad312;
+  margin-top: 55px;
+  padding: 13px 31px;
+  border: none;
+}
+
+.content_tip{
+  margin-top: 21px;
+  font-size: 14px;
+}
+
+
+
+footer{
+  margin-top: 66px;
+  background-color: #000000;
+  text-align: center;
+  padding: 26px 12px;
+  font-size: 13px;
+  color: #999999;
+}
+
+
+@media(max-width: 768px){
+  .section{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .title{
+    font-size: 32px;
+  }
+
+}
